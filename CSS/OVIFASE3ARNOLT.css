@@ -1,0 +1,132 @@
+*{ /* reiniciar algunos estilos del navegador*/
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color: black;
+	color: #333;
+}
+nav, header, .contenedor, footer{
+    max-width: 90%;
+    margin: auto;
+    border-radius: 0.4em;
+}
+nav{
+    background-color: #005883;
+    text-align: center;
+}
+header{
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	color: #005883;
+}
+.contenedor{
+	background-color: #333;
+	
+}
+.central{
+    background-color: #005883; /* 005883*/
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+footer{
+    background-color: #B3B3B3;
+    text-align: center;
+}
+aside{
+	background-color: #F0B429;
+	display: inline-block;
+	width: 28%;
+	vertical-align: right;
+	text-align: right;
+}
+/* Menu*/
+.menu li{
+    display:inline-block ;
+}
+li a, boton{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em;
+}
+.listaDesplegable{
+    display: none;
+    background-color: #ghostwhite; /*ghostwhite*/
+    position: absolute;
+
+}
+.listaDesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+    display: block;
+}
+li a:hover{
+	background-color: #F47920;
+	font-size: 14px;
+	color: #FFF;
+}
+.contenedor .central article h3 {
+	font-size: 12px;
+}
+.contenedor .central article h3 {
+	font-size: 16px;
+}
+.contenedor .central article h3 {
+	font-size: 24px;
+}
+.contenedor .central article h3 {
+	font-size: 24px;
+}
+.contenedor .central article p {
+	font-size: 18px;
+	color: #666;
+}
+.contenedor .central article h3 {
+	color: #FFF;
+}
+p {
+	text-align: justify;
+}
+body {
+	text-align: center;
+}
+body {
+	text-align: center;
+}
+body {
+	color: #FFF;
+}
+p {
+	color: #FFF;
+}
+center {
+	color: #FFF;
+}
+center {
+	font-size: 14px;
+}
+h3 {
+	font-size: 16px;
+}
+h3 {
+	font-size: 18px;
+}
+a {
+	color: #FFF;
+}
+a {
+	color: #FFF;
+}
+.listaDesplegable a {
+	color: #FFF;
+}
+h4 {
+	text-align: left;
+}
